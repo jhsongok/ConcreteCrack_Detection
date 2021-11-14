@@ -44,7 +44,7 @@ os.chdir(TEST_IMAGE_PATH)
 for current_dir, dirs, files in os.walk('.'):
     for f in files:
         if f.endswith('.jpg'):
-            image_path = COLAB_ACCESS_PATH + '/dataset/test/' + f
+            image_path = COLAB_ACCESS_PATH + '/dataset/valid/' + f
             test_paths.append(image_path + '\n')
 
 
